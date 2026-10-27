@@ -1,0 +1,139 @@
+{
+    "generated_at": "2026-01-10 10:10:10",
+    "data": {
+        "gpt_oss_20": {
+            "gpt_oss_20_run1": {
+                "voltage_in_bounds": true,
+                "start_bias": 1,
+                "tool_counter": {
+                    "get_measurements": 1.0,
+                    "adjust_generator": 1.0,
+                    "adjust_generator_up": 1.0,
+                    "adjust_generator_down": 1.0,
+                    "adjust_generator_same": 1.0,
+                    "adjust_load": 1.0,
+                    "adjust_load_up": 1.0,
+                    "adjust_load_down": 1.0,
+                    "adjust_load_same": 1.0
+                },
+                "power_at_slack": 1.0
+            },
+            "gpt_oss_20_run2": {
+                "voltage_in_bounds": true,
+                "start_bias": 0,
+                "tool_counter": {
+                    "get_measurements": 1.0,
+                    "adjust_generator": 1.0,
+                    "adjust_generator_up": 1.0,
+                    "adjust_generator_down": 1.0,
+                    "adjust_generator_same": 1.0,
+                    "adjust_load": 1.0,
+                    "adjust_load_up": 1.0,
+                    "adjust_load_down": 1.0,
+                    "adjust_load_same": 1.0
+                },
+                "power_at_slack": 1.0
+            },
+            "gpt_oss_20_run3": {
+                "voltage_in_bounds": false,
+                "messages": {
+                    "Thinking0": 1.0,
+                    "ToolCall1": 1.0,
+                    "Thinking2": 1.0,
+                    "ToolCall3": 1.0
+                },
+                "start_bias": -1,
+                "tool_counter": {
+                    "get_measurements": 1.0,
+                    "adjust_generator": 1.0,
+                    "adjust_generator_up": 1.0,
+                    "adjust_generator_down": 1.0,
+                    "adjust_generator_same": 1.0,
+                    "adjust_load": 1.0,
+                    "adjust_load_up": 1.0,
+                    "adjust_load_down": 1.0,
+                    "adjust_load_same": 1.0
+                },
+                "power_at_slack": 1.0
+            },
+            "success_rate": 0.667,
+            "avg_iteration_count": 1.0,
+            "avg_wrong_adjustments": 1.0,
+            "avg_wrong_adjustments_ratio": 1.0,
+            "avg_power_at_slack": 1.0,
+            "bias": 1,
+            "grid_type": "rural1",
+            "controller_config": {
+                "data_as_text": true,
+                "data_separation": true,
+                "area_info": true,
+                "area_radius": 3
+            },
+            "runtime": "1.00min"
+        },
+        "gpt_oss_120": {
+            "gpt_oss_120_run0": {
+                "voltage_in_bounds": true,
+                "start_bias": 2,
+                "tool_counter": {
+                    "get_measurements": 1.0,
+                    "adjust_generator": 1.0,
+                    "adjust_generator_up": 1.0,
+                    "adjust_generator_down": 1.0,
+                    "adjust_generator_same": 1.0,
+                    "adjust_load": 1.0,
+                    "adjust_load_up": 1.0,
+                    "adjust_load_down": 1.0,
+                    "adjust_load_same": 1.0
+                },
+                "power_at_slack": 1.0
+            },
+            "gpt_oss_120_run1": {
+                "voltage_in_bounds": true,
+                "start_bias": 0,
+                "tool_counter": {
+                    "get_measurements": 1.0,
+                    "adjust_generator": 1.0,
+                    "adjust_generator_up": 1.0,
+                    "adjust_generator_down": 1.0,
+                    "adjust_generator_same": 1.0,
+                    "adjust_load": 1.0,
+                    "adjust_load_up": 1.0,
+                    "adjust_load_down": 1.0,
+                    "adjust_load_same": 1.0
+                },
+                "power_at_slack": 1.0
+            },
+            "gpt_oss_120_run2": {
+                "voltage_in_bounds": true,
+                "start_bias": -2,
+                "tool_counter": {
+                    "get_measurements": 1.0,
+                    "adjust_generator": 1.0,
+                    "adjust_generator_up": 1.0,
+                    "adjust_generator_down": 1.0,
+                    "adjust_generator_same": 1.0,
+                    "adjust_load": 1.0,
+                    "adjust_load_up": 1.0,
+                    "adjust_load_down": 1.0,
+                    "adjust_load_same": 1.0
+                },
+                "power_at_slack": 1.0
+            },
+            "success_rate": 1.0,
+            "avg_iteration_count": 1.0,
+            "avg_wrong_adjustments": 1.0,
+            "avg_wrong_adjustments_ratio": 1.0,
+            "avg_power_at_slack": 1.0,
+            "bias": 2,
+            "grid_type": "rural1",
+            "controller_config": {
+                "data_as_text": true,
+                "data_separation": true,
+                "area_info": true,
+                "area_radius": 3
+            },
+            "runtime": "10.00min"
+        }
+    }
+}
